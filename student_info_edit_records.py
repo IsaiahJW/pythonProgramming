@@ -48,7 +48,11 @@ def edit_student():
 
 # Main menu created by Isaiah.
 def main():
-
+    user_input = int(input("Press 1 to edit student info, press 2 to exit program: "))
+    if user_input ==1:
+        edit_student()
+    elif user_input ==2:
+        exit()
 
 # Initialize the mainline.
 if __name__ == "__main__":
